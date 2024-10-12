@@ -1,0 +1,36 @@
+
+
+#pfp {
+    border-radius: 100%;
+    padding: 0.25rem;
+    transition: 0.3s;
+    background-color: white;
+
+}
+
+#pfp:hover {
+    background-color: rgb(196, 236, 255);
+    padding: 0.6rem
+    
+}
+
+.icon {
+    filter: invert();
+    width:22%;
+    transition-duration: 0.2s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    width: 30%;
+    filter: drop-shadow(2px 2px rgb(196, 37, 37)) invert();
+}
+
+#icon_list {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+}
